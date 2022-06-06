@@ -15,6 +15,7 @@ class Types
             DNS_MX => 'MX',
             DNS_SRV => 'SRV',
             DNS_TXT => 'TXT',
+            DNS_PTR => 'PTR',
             // DNS_NAPTR => 'NAPTR',
         ];
         //@see https://bugs.php.net/bug.php?id=75909

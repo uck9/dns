@@ -32,7 +32,7 @@ class Dig extends Handler
 
     public function canHandle(): bool
     {
-        if (! $digPath = (new ExecutableFinder())->find('dig')) {
+        if (! $digPath = (new ExecutableFinder())->find('/usr/bin/dig')) {
             return false;
         }
 
